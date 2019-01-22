@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/NombreSala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Sala --"
+                android:textAlignment="center"
+                android:textColor="@color/App_Barr_Black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/Contador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="Sillas -"
+                android:textAlignment="center"
+                android:textColor="@color/Azul_Fuerte"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+
+        <GridView
+            android:id="@+id/grider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:numColumns="6" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pantalla_cine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/linearLayout"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:hint="Selección"
+            android:id="@+id/Seleccionados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/linearLayout"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/App_Barr_Black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:src="@android:drawable/ic_media_play"
+            android:id="@+id/Checkout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@+id/linearLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/linearLayout"
+            android:layout_weight="4"
+            android:background="@color/Gris_Oscuro" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#cddc39</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name = "naranja">#FFBF00</color>
+    <color name = "salmon">#FA8258</color>
+    <color name="verdoso">#58FAAC</color>
+    <color name="verde_oscuro">#31B404</color>
+    <color name="gris_claro">#BDBDBD</color>
+    <color name="gris_elegante">#2C3E50</color>
+    <color name="rojo_maeterail">#C0392B</color>
+    <color name="morado_material">#9B59B6</color>
+
+    <color name="Gris_Oscuro">#585858</color>
+    <color name="Morado_Oscuro">#d9b9d1</color>
+    <color name="Azul_Fuerte">#045FB4</color>
+    <color name="Marron">#B45F04</color>
+    <color name="Rojo">#DF0101</color>
+    <color name="Salmon">#FAAC58</color>
+    <color name="Amarillo_claro">#F4FA58</color>
+    <color name="Cyan">#58FAAC</color>
+    <color name="azul_claro">#81DAF5</color>
+    <color name="Indigo">#3F51B5</color>
+    <color name="Lima">#CDDC39</color>
+    <color name="Limon">#eeff41</color>
+    <color name="Ambar">#FFC107</color>
+    <color name="Brown">#795548</color>
+    <color name="Deep_Orange">#FF5722</color>
+    <color name="Blue_grey">#607D8B</color>
+
+
+    <color name="Status_Bar_Black">#000000</color>
+    <color name="App_Barr_Black">#212121</color>
+    <color name="BackGround_Black">#303030</color>
+    <color name="Cards_dialogs_black">#424242</color>
+
+</resources>

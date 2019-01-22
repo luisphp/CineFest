@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hurtado.luis.ejemplo.cinefest">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Index">
+
+        </activity>
+        <activity
+            android:name=".Proximamente"
+            android:label="Próximos Estrenos" />
+        <activity
+            android:name=".Detalle_pelicula"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login_usuario"
+            android:label="Ingresa a tu cuenta"
+            android:theme="@style/Colored"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Registrar_usuario"
+            android:label="Abrir cuenta"
+            android:theme="@style/Colored"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Funciones"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Cartelera" />
+        <activity
+            android:name=".PreSala"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sala"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Checkout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MisEntradas" />
+        <activity
+            android:name=".MiInformacion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".intro"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hurtado.luis.ejemplo.cinefest.Detalle_pelicula">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Nombre_esp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Nombre en Español"
+                android:textColor="@color/gris_elegante"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/myImageDetalle"
+                android:layout_width="320dp"
+                android:layout_height="475dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:maxHeight="400dp" />
+
+
+            <TextView
+                android:id="@+id/myNombre_original"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Nombre Original"
+                android:textColor="@color/App_Barr_Black"
+                android:textSize="13dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/MySinopsis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Sinopsis"
+                android:textColor="@color/App_Barr_Black"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/MyReparto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Reparto"
+                android:textColor="@color/App_Barr_Black"
+                android:textSize="13dp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/MyDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Duracion"
+                android:textColor="@color/Azul_Fuerte"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/myFecha_de_Estreno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Fecha de Estreno"
+                android:textColor="@color/Azul_Fuerte"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myid_pelicula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Fecha de Estreno"
+                android:textColor="#FFFFFF"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/myPoster"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Fecha de Estreno"
+                android:textColor="#FFFFFF"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

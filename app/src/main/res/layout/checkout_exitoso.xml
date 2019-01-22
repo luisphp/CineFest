@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:textSize="16dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Registramos tu pago de forma exitosa!"
+        android:id="@+id/Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/verde_oscuro"
+        android:text="Codigo"
+        android:id="@+id/RespustaCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginBottom="15dp"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Cambia este codigo por tus entradas en la taquilla de cine seleccionada!"
+        android:id="@+id/RespustaCheckout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:background="@drawable/gradient"
+        android:id="@+id/CheckoutButton"
+        android:text="Ok!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    
+</LinearLayout>
